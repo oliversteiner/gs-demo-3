@@ -10,15 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3deaf8c-356a-4e0e-ae7a-817befd71f6e" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/demo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    <list default="true" id="a3deaf8c-356a-4e0e-ae7a-817befd71f6e" name="Default Changelist" comment="add SCSS file watcher to webpack">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +61,7 @@
       <updated>1600819967699</updated>
       <workItem from="1600819968814" duration="145000" />
       <workItem from="1600820326673" duration="2435000" />
-      <workItem from="1600822949733" duration="1004000" />
+      <workItem from="1600822949733" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600823091208</created>
@@ -77,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600823091208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add SCSS file watcher to webpack">
+      <created>1600824029814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600824029814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add SCSS file watcher to webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SCSS file watcher to webpack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="324" key="#SCSS_Lint" timestamp="1600820053801">
@@ -111,6 +112,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="156" y="246" key="EditFileWatcherDialog/0.23.1440.877@0.23.1440.877" timestamp="1600820105933" />
+    <state x="199" y="203" key="IDE.errors.dialog" timestamp="1600823965960">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="199" y="203" key="IDE.errors.dialog/0.23.1440.877@0.23.1440.877" timestamp="1600823965960" />
     <state x="0" y="100" key="SettingsEditor" timestamp="1600823808708">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
