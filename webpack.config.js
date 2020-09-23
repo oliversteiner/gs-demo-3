@@ -2,7 +2,7 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: ['./src/index.ts', './src/scss/demo.scss'],
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
@@ -19,16 +19,16 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
-                test: /\.s[ac]ss$/i,
+                test: /\.scss$/,
+                exclude: /node_modules/,
                 use: [
-                    // Creates `style` nodes from JS strings
-                    'style-loader',
-                    // Translates CSS into CommonJS
-                    'css-loader',
-                    // Compiles Sass to CSS
-                    'sass-loader',
-                ],
-            },
+                    {
+                        loader: 'file-loader',
+                        options: { outputPath: 'css/', name: '[name].min.css'}
+                    },
+                    'sass-loader'
+                ]
+            }
         ],
     },
     resolve: {
@@ -42,7 +42,6 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: 'src/index.html', to: '../dist/index.html' },
-                { from: 'src/demo.css', to: '../dist/demo.css' },
             ],
         }),
     ],
