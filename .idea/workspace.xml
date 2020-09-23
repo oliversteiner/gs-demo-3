@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3deaf8c-356a-4e0e-ae7a-817befd71f6e" name="Default Changelist" comment="add SCSS file watcher to webpack">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/demo.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -51,7 +55,10 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3deaf8c-356a-4e0e-ae7a-817befd71f6e" name="Default Changelist" comment="" />
@@ -62,6 +69,7 @@
       <workItem from="1600819968814" duration="145000" />
       <workItem from="1600820326673" duration="2435000" />
       <workItem from="1600822949733" duration="1189000" />
+      <workItem from="1600856567102" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600823091208</created>
@@ -81,7 +89,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -93,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -120,6 +129,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1600823808708" />
+    <state width="300" height="111" key="javadoc.popup.new" timestamp="1600859904258">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="300" height="111" key="javadoc.popup.new/2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1600859904258" />
     <state x="290" y="326" key="scopes" timestamp="1600820085239">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

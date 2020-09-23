@@ -6,18 +6,28 @@
 </head>
 <body>
 <h1>Glanzstück Demo 4</h1>
-<div class="menu-test">
-    <div id="menu-item-1" class="menu-item"></div>
+<div id="menu-item-1" class="menu-item">
+    <div class="label">Label</div>
+    <div class="icon"></div>
+</div>
+<div id="menu-item-2" class="menu-item">
+    <div class="label">Label</div>
+    <div class="icon"></div>
+</div>
+<div id="menu-item-3" class="menu-item">
+    <div class="label">Label</div>
+    <div class="icon"></div>
+</div>
+
+
+<div class="menu-container">
     <svg height="800" width="800" >
-        <path id="menu-path" fill="none" d="M0,200a200,200 0 1,0 400,0a200,200 0 1,0 -400,0"/>
+        <circle id="menu-circle" fill="none" stroke="green" r="200" cx="400" cy="400" transform="rotate(90 400 400)"></circle>
     </svg>
 </div>
 
-<svg width="100%" height="100%" viewBox="-20 0 557 190" id="svg">
-</svg>
 
 <div id="div">#div</div>
-
 
 
 <script src="bundle.js"></script>

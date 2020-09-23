@@ -1,28 +1,50 @@
-.test {
-  color: green;
-}
-
 
 h1{
-  color:red;
 }
 
 
-p{
-  color:green;
+#menu-path{
+  stroke: gray;
 }
-
 
 .menu-test{
   margin-left: 100px;
-  border: 1px solid #c48e8e; /* Debug */
+}
+
+.menu-container{
+  rotation: 90grad;
 }
 
 .menu-item {
-  display: block;
+  display: flex;
   position: absolute;
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+  .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #dedede; /* Debug */
+  }
+  .label{
+    position: absolute;
+border: 1px solid #dedede; /* Debug */;
+    padding-right: 20px;
+    left: -50px;
+  }
+
+}
+
+
+#menu-item-1 .icon{
+  background-color: #af8ec4;
+}
+
+#menu-item-2 .icon{
+  background-color: #8ebec4;
+}
+
+#menu-item-3 .icon{
+  background-color: #a5a26b;
 }

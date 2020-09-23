@@ -17,17 +17,22 @@ import {gsap} from "gsap"
 import {MotionPathPlugin} from 'gsap/MotionPathPlugin'
 gsap.registerPlugin(MotionPathPlugin)
 
-gsap.to("#menu-item-1", {
+// Convert Circle To Path
+MotionPathPlugin.convertToPath('#menu-circle')
+
+//
+gsap.from("#menu-item-1", {
     duration: 2,
     repeat: 5,
-    repeatDelay: 3,
-    yoyo: true,
+    repeatDelay: 1,
+  //  yoyo: true,
     ease: "power1.inOut",
     motionPath:{
-        path: "#menu-path",
-        align: "#menu-path",
-        autoRotate: true,
-        alignOrigin: [0.5, 0.5]
+        path: "#menu-circle",
+        align: "#menu-circle",
+        autoRotate: false,
+        alignOrigin: [0.5, 0.5],
+        end: 0.5
     }
 });
 console.log('demo start', 'demo start');
