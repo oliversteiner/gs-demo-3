@@ -20,19 +20,27 @@ gsap.registerPlugin(MotionPathPlugin)
 // Convert Circle To Path
 MotionPathPlugin.convertToPath('#menu-circle')
 
-//
-gsap.from("#menu-item-1", {
-    duration: 2,
-    repeat: 5,
-    repeatDelay: 1,
-  //  yoyo: true,
-    ease: "power1.inOut",
-    motionPath:{
-        path: "#menu-circle",
-        align: "#menu-circle",
-        autoRotate: false,
-        alignOrigin: [0.5, 0.5],
-        end: 0.5
+
+// Animation Function for all MenuItems
+const menuAnimation = function (endPoint:any, duration:any) {
+    return {
+        duration: duration,
+        ease: "expo",
+        motionPath: {
+            path: "#menu-circle",
+            align: "#menu-circle",
+            autoRotate: false,
+            alignOrigin: [0.5, 0.5],
+            end: endPoint
+        }
     }
-});
-console.log('demo start', 'demo start');
+}
+
+// Timeline for all Menu Items
+    const menuTimeline = gsap.timeline({repeat: 5, repeatDelay: 1})
+
+
+// Add Animation to Menu Items
+    menuTimeline.to("#menu-item-3", menuAnimation(-0.3,1), 0.2)
+      .to("#menu-item-2", menuAnimation(-0.25,1.5),0.2 )
+      .to("#menu-item-1", menuAnimation(-0.2, 2), 0.2)
